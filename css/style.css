@@ -1,0 +1,87 @@
+html {
+    background-color: white;
+    font-family: 'Heebo', sans-serif;
+    text-decoration: none;
+
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+h2, h3 {
+    font-size: 150%;
+    text-transform: uppercase;
+}
+
+
+
+/* **** NAVBAR ********
+============ */
+
+
+
+.navbar {
+    font-size: 130%;
+    color: white;
+    padding: 0px 15px 0px 15px;;
+}
+
+#monMenu a {
+    margin-left: 30px
+}
+
+#monMenu a:hover {
+    color: #c30c0c;
+    
+}
+
+/* **** HEADER ***** 
+====================== */
+
+header {
+    background-image: linear-gradient(rgba(35, 185, 94, 0.5),
+            rgba(54, 4, 1, 0.8)), url(../Ressources/Images/4271786.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+
+.home-title {
+    color: white;
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 15%;
+    
+}
+
+.home-title img {
+    width: 40%;
+}
+    
+/* **boutons** */
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.buttons {
+    margin-left: 80%
+}
+
+.buttons a {
+    font-size: 30px;
+    color: white;
+    background-color: rgb(144, 2, 2);
+   
+}
+
+.buttons a:hover {
+    background-color: white;
+    transition: 1.5s
+    
+}
