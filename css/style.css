@@ -7,13 +7,14 @@ html {
 
 }
 
-h2 ,h3 {
+h2,
+h3 {
     font-family: 'Quicksand', sans-serif;
     text-transform: uppercase;
 }
 
 h1 {
-    
+
     text-align: center;
     font-family: 'Gloria Hallelujah', cursive;
     color: rgba(56, 114, 96);
@@ -29,7 +30,7 @@ h1:after {
     background-color: black;
     content: " ";
     margin: 0 auto;
-    
+
 }
 
 section {
@@ -37,7 +38,7 @@ section {
     padding-bottom: 2%;
 }
 
-.titre-section  {
+.titre-section {
     font-size: 400%;
 }
 
@@ -48,7 +49,8 @@ section {
 .navbar {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 120%;
-    padding: 0px 15px 0px 15px;;
+    padding: 0px 15px 0px 15px;
+    ;
 }
 
 #monMenu a {
@@ -57,9 +59,8 @@ section {
 
 #monMenu a:hover {
     color: rgba(56, 114, 96);
-    transform: scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
     transition: 0.5s
-    
 }
 
 /* **** HEADER ***** 
@@ -71,8 +72,8 @@ header {
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed; 
-    padding: 5% 
+    background-attachment: fixed;
+    padding: 5%
 }
 
 #logo img {
@@ -81,7 +82,7 @@ header {
     top: 7%;
     left: 35%;
     width: 30%;
-    
+
 }
 
 
@@ -99,7 +100,7 @@ header {
     margin: 0 auto;
     font-size: 120%;
     width: 80vw;
-   
+
 }
 
 
@@ -125,10 +126,10 @@ header {
 }
 
 .projets-details i:hover {
-        color: rgba(56, 114, 96);
+    color: rgba(56, 114, 96);
     transition: 0.5s;
-       transform: translateY(-15px) scale(1.1,1.1);
-    
+    transform: translateY(-15px) scale(1.1, 1.1);
+
 }
 
 
@@ -146,11 +147,40 @@ header {
     background-repeat: no-repeat;
     height: 400px;
     border-radius: 20px;
-    margin: 10px;   
+    margin: 10px;
 }
 
+.galerie-img:hover {
+    opacity: 70%;
+}
 
 
 /* **** CONTACT ***** 
 ======================== */
 
+
+.form {
+    padding-top: 2%;
+}
+
+#titre-form {
+    padding-bottom: 20px
+}
+
+#stylo {
+    left: 20%;
+    font-size: 2000%;
+    color: rgba(56, 114, 96);
+}
+
+
+.nom {
+    text-align: center;
+    margin-right: 20%;
+}
+
+.nom i {
+    font-size: 130%;
+    color: rgba(56, 114, 96);
+    padding-right: 15px
+}
