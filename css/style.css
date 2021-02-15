@@ -177,6 +177,9 @@ header {
     color: rgba(56, 114, 96);
 }
 
+#contact {
+    margin: 0 auto;    
+}
 
 .nom {
     text-align: center;
@@ -195,7 +198,7 @@ header {
 }
 
 .contact-message {
-    width: 80%
+    width: 100%
 }
 
 
@@ -238,6 +241,6 @@ footer i:hover {
     margin: 0 auto;
 }
 
-#icones-sociaux {
+#social-networks {
     padding: 1vw 40vw
 }
