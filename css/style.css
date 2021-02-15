@@ -184,9 +184,9 @@ header {
 }
 
 .nom i {
-    font-size: 130%;
+    font-size: 120%;
     color: rgba(56, 114, 96);
-    padding-right: 20px
+    padding-right: 10px
 }
 
 .contact-form {
