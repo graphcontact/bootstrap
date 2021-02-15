@@ -1,4 +1,4 @@
-body {
+html {
     background-color: #4a4a4a;
     font-family: 'Quicksand', sans-serif;
     font-family: 'Gloria Hallelujah', cursive;
@@ -9,26 +9,38 @@ body {
 
 h2, h3 {
     font-family: 'Quicksand', sans-serif;
-    font-size: 100;
+    text-transform: uppercase;
 }
 
 h1 {
+    text-align: center;
     font-family: 'Gloria Hallelujah', cursive;
     color: rgba(56, 114, 96);
-    margin: 0 auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 
 h1:after {
     display: block;
-    height: 4px;
-    width: 30%;
+    height: 2px;
+    width: 6%;
     background-color: black;
     content: " ";
     margin: 0 auto;
     
+}
+p {
+    font-size: 120%    
+}
+
+section {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.titre-section  {
+    font-size: 400%;
 }
 
 
@@ -74,18 +86,49 @@ header {
     
 }
 
+
+
 /* **** QUI SUIS-JE ***** 
 ====================== */
+#quote {
+    font-size: 200%;
+    text-align: center;
 
-#quisuisje {
-    margin: 0 auto;
-    padding: 0px 0px 0px 0px;
-    width: 100vw;
 }
 
 #texte-qui {
+    text-align: justify;
     margin: 0 auto;
     font-size: 150%;
     width: 80vw;
+   
+}
+
+
+/* **** PROJETS ***** 
+====================== */
+
+.projets {
+    background-image: linear-gradient(to top, rgba(56, 114, 96, 0.95),
+            rgb(255, 255, 255))
+}
+
+
+.projets-details {
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px 70px 30px 70px
+}
+
+.projets-details i {
+    font-size: 600%;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.projets-details i:hover {
+        color: rgba(56, 114, 96);
+    transition: 0.5s;
+       transform: translateY(-15px) scale(1.1,1.1);
     
 }
