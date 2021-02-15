@@ -1,5 +1,4 @@
 html {
-    background-color: #4a4a4a;
     font-family: 'Quicksand', sans-serif;
     font-family: 'Gloria Hallelujah', cursive;
     text-decoration: none;
@@ -89,12 +88,11 @@ header {
 
 /* **** QUI SUIS-JE ***** 
 ====================== */
-#quote {
-    font-size: 200%;
-    text-align: center;
 
+#quisuisje {
+    background-image: linear-gradient(to top, rgb(255, 255, 255), rgba(56, 114, 96, 0.67)
+            );
 }
-
 #texte-qui {
     text-align: justify;
     margin: 0 auto;
@@ -109,7 +107,8 @@ header {
 
 .projets {
     background-image: linear-gradient(to top, rgba(56, 114, 96, 0.95),
-            rgb(255, 255, 255))
+            rgb(255, 255, 255));
+
 }
 
 
@@ -137,7 +136,7 @@ header {
 ====================== */
 
 .galerie {
-    padding: 0 20px 0 20px;
+    padding: 0 50px 0 50px;
 }
 
 .galerie-img {
@@ -157,7 +156,11 @@ header {
 
 /* **** CONTACT ***** 
 ======================== */
-
+#contact {
+    margin: 0 auto;
+    background-image: linear-gradient(to top, rgba(56, 114, 96, 0.95),
+            rgb(255, 255, 255));
+}
 
 .form {
     padding-top: 2%;
@@ -182,5 +185,47 @@ header {
 .nom i {
     font-size: 130%;
     color: rgba(56, 114, 96);
-    padding-right: 15px
+    padding-right: 20px
+}
+
+.contact-form {
+    font-size: 150%;
+    margin-top: 15px;
+}
+
+.contact-message {
+    width: 80%
+}
+
+
+#label-message {
+
+}
+
+
+/* **** FOOTER ***** 
+======================== */
+
+footer {
+    background-color: black;;
+    height: 6vw
+}
+
+footer i {
+    display: block;
+    font-size: 400%;
+    color: white
+}
+
+footer i:hover {
+    color: rgba(56, 114, 96);
+    transition: 0.5s;
+    transform: translateY(-15px) scale(1.1, 1.1);
+}
+
+#social-networks {
+    display: block;
+   text-align: center;
+    padding: 0% 45% 0 45%;
+    padding-top: 2%;
 }
