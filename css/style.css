@@ -65,22 +65,21 @@ section {
 /* **** HEADER ***** 
 ====================== */
 
-header {
+.header {
     background-image: linear-gradient(to top right, rgb(0, 20, 16),
             rgba(56, 114, 96, 0.95), rgb(78, 124, 110), rgb(14, 31, 23)), url(../Ressources/Images/Post-Insta.png);
     height: 100%;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    padding: 5%
+    padding: 5%;
+    margin: 0 auto;
 }
 
-#logo img {
+#logo {
     position: relative;
     margin: 0 auto;
-    top: 7%;
-    left: 35%;
-    width: 30%;
+    width: 30vw;
 
 }
 
@@ -90,9 +89,9 @@ header {
 ====================== */
 
 #quisuisje {
-    background-image: linear-gradient(to top, rgb(255, 255, 255), rgba(56, 114, 96, 0.67)
-            );
+    background-image: linear-gradient(to top, rgb(255, 255, 255), rgba(56, 114, 96, 0.67));
 }
+
 #texte-qui {
     text-align: justify;
     margin: 0 auto;
@@ -198,23 +197,32 @@ header {
 }
 
 
-#label-message {
-
+#btn {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 1s, color 1s, border 1s;
 }
 
+#btn:hover {
+    background-color: rgba(56, 114, 96);
+    color: white;
+    transition: 0.5s
+}
 
 /* **** FOOTER ***** 
 ======================== */
 
 footer {
-    background-color: black;;
+    background-color: black;
     height: 6vw
 }
 
 footer i {
     display: block;
-    font-size: 400%;
-    color: white
+    font-size: 60px;
+    color: white;
 }
 
 footer i:hover {
@@ -223,9 +231,11 @@ footer i:hover {
     transform: translateY(-15px) scale(1.1, 1.1);
 }
 
-#social-networks {
+.icones-sociaux {
     display: block;
-   text-align: center;
-    padding: 0% 45% 0 45%;
-    padding-top: 2%;
+    margin: 0 auto;
+}
+
+#icones-sociaux {
+    padding: 1vw 40vw
 }
