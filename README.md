@@ -1,4 +1,4 @@
 # site-vins
 
-https://graphcontact.github.io/site-vins/
+https://github.com/graphcontact/bootstrap.git
 
